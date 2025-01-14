@@ -6,7 +6,7 @@ nav_order: 1
 
 # EE380: Control Engineering I
 {: .mb-2 }
-with Dr. Ali AlBeladi (Office Hour: UTR 10-11 am @ 59-1070)
+with Dr. Ali AlBeladi (Office Hours: UTR 10-11 am @ 59-1070)
 {: .fs-6 .fw-300 }
 
 ## Course Overview
@@ -35,5 +35,10 @@ Franklin, Powell, and Emami-Naeini, Feedback Control of Dynamic Systems, 8th ed.
 ## Grade Distribution
 * **Homework:**     &nbsp;&nbsp; 15%
 * **Project:**      &nbsp;&nbsp; 10%
-* **Exams 1 & 2:**  &nbsp; 20%
+* **Exams 1 & 2:**  &nbsp; 40%
 * **Final Exam:**   &nbsp; 35%
+
+|**Homework:**     | 15% |
+|**Project:**      | 10% |
+|**Exams 1 & 2:**  | 40% |
+|**Final Exam:**   | 35% |
