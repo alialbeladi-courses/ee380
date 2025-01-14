@@ -37,7 +37,8 @@ Franklin, Powell, and Emami-Naeini, Feedback Control of Dynamic Systems, 8th ed.
 * **Project:**      &nbsp;&nbsp; 10%
 * **Exams 1 & 2:**  &nbsp; 40%
 * **Final Exam:**   &nbsp; 35%
-
+| Week             | Topics  |
+|------------------|---------|
 |**Homework:**     | 15% |
 |**Project:**      | 10% |
 |**Exams 1 & 2:**  | 40% |
