@@ -18,3 +18,7 @@ Homework submission will be through [Gradescope](https://www.gradescope.com/cour
 * You are encouraged to typeset the homework in LaTeX. The best way to get started with LaTeX is to make a free account at [Overleaf](https://www.overleaf.com) and start with one of the free templates available. Their [tutorial section](https://www.overleaf.com/learn/latex/Tutorials) is very helpful.
 
 Revise the [Homework Policy]({{site.baseurl}}/hwpolicy/) section for more details on the policies.
+
+{% for homework in site.homeworks %}
+{{ homework }}
+{% endfor %}
