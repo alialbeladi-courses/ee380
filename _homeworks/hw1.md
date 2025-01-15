@@ -1,7 +1,7 @@
 ---
 title: Homework 1
-topic: preliminaries
+topic: Preliminaries
 --- 
 Jan 15
-: [homework 1]()
+: [Homework 1]()
    : ⏰  Due: **11:00 PM** **Jan. 23**{: .label .label-green }
