@@ -6,7 +6,7 @@ nav_order: 4
 has_children: true
 has_toc: true
 ---
-
+# Homework
 Homework submission will be through [Gradescope](https://www.gradescope.com/courses/955242). Inform the instructor if you have not been added to the course.
 
 **Read** about how to submit assignments on Gradescope [here](https://help.gradescope.com/article/ccbpppziu9-student-submit-work#variable_length_submissions). Some pointers:
