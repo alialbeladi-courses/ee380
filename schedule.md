@@ -4,10 +4,12 @@ title: Calendar
 permalink: /calendar/
 nav_order: 2
 ---
-| Week              | Topics                                                                    | Readings | HW |
+| Week - Lecture              | Topics                                                          | Readings | HW |
 |-------------------|---------------------------------------------------------------------------|----------|----|
-| #1: Jan 12-16     | [Course Overview<br />Dynamics of Electrical Circuits<br />Dynamics of Mechanical Systems]({{ site.baseurl }}/modules/module1)                                                                       |          |    |
-| #2: Jan 19-23 | [Dynamics of Electromechanical Systems<br />Review of Laplace Transform]({{ site.baseurl }}/modules/module2)                                                                                              |          |     |
+| #1 - Jan 12     | Course Overview                                                             | [FPE] Ch. 1         |    |
+| #1 - Jan 14     | Dynamics of Electrical Circuits and Mechanical Systems                      | [FPE] Ch. 2.1.1, Ch. 2.2  |  |
+| #1 - Jan 16     | Dynamics of Electromechanical Systems                                       | [FPE] Ch. 2.1.2, Ch. 2.3 |  |
+| #2: Jan 19-23   | Review of Laplace Transform                                                   |          |     |
 | #3: Jan 26-30       |                            			                                    |          |      |
 | #4: Feb 2-6      |                                                                           |          |    |
 | #5: Feb 9-13     |                                                                           |          |    |
