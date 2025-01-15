@@ -17,4 +17,4 @@ Homework submission will be through [Gradescope](https://www.gradescope.com/cour
 * For a multi-page answer, associate all relevant pages with the question.
 * You are encouraged to typeset the homework in LaTeX. The best way to get started with LaTeX is to make a free account at [Overleaf](https://www.overleaf.com) and start with one of the free templates available. Their [tutorial section](https://www.overleaf.com/learn/latex/Tutorials) is very helpful.
 
-Revise the [Homework Policy]({{site.baseurl}}) section for more details on the policies.
+Revise the [Homework Policy]({{site.baseurl}}/hwpolicy/) section for more details on the policies.
