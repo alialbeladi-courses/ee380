@@ -9,7 +9,9 @@ nav_order: 2
 | #1 - Jan 12     | [Course Overview](https://github.com/alialbeladi-courses/ee380/blob/main/lectures/01_12_Introduction.pdf)                                                             | [[FPE]]({{site.baseurl}}/#textbooks) Ch. 1         |    |
 | #1 - Jan 14     | [Dynamics of Electrical Circuits and Mechanical Systems](https://github.com/alialbeladi-courses/ee380/blob/main/lectures/01_14_Dynamic%20Modelling.pdf)                      | [[FPE]]({{site.baseurl}}/#textbooks) Ch. 2.1.1, Ch. 2.2  |  |
 | #1 - Jan 16     | [Dynamics of Rotational Motion and Electromechanical Systems](https://github.com/alialbeladi-courses/ee380/blob/main/lectures/01_16_Dynamic%20Modelling%20II.pdf)                                       | [[FPE]]({{site.baseurl}}/#textbooks) Ch. 2.1.2, Ch. 2.3 |  |
-| #2: Jan 19-23   | Review of Laplace Transform                                                   |          |     |
+| #2: Jan 19      | Review of Laplace Transform                                                   |          |     |
+| #2: Jan 21      | Review of Laplace Transform                                                   |          |     |
+| #2: Jan 23      | Review of Laplace Transform                                                   |          |  [**HW1 Due**{: .label .label-orange }]({{site.baseurl}}/hw/)   |
 | #3: Jan 26-30       |                            			                                    |          |      |
 | #4: Feb 2-6      |                                                                           |          |    |
 | #5: Feb 9-13     |                                                                           |          |    |
