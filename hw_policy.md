@@ -4,9 +4,9 @@ title: Homework Policy
 permalink: /hwpolicy/
 nav_order: 5
 ---
-
+. 
 ## Submission Policy
-All homework submissions must be submitted to Gradescope (entry code: TBA ) by 11:59 pm on the due date. 
+All homework submissions must be submitted to [Gradescope](https://www.gradescope.com/courses/955242) by 11:59 pm on the due date. Inform the instructor if you have not been added to the course.
 * To easily identify you, use your KFUPM email and enter your name as written in the university's system.
 * Please ensure you have a good way to scan your homework. You can use a traditional scanner or a scanner app on your smartphone (if it has a good camera) 
 * We highly recommend typesetting your homework in [LATEX](https://www.overleaf.com).
