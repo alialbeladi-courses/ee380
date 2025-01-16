@@ -27,9 +27,9 @@ Control systems are at the heart of modern technology, powering everything from 
 **Prerequisites:** EE207
 
 ## Textbooks ##
-R Dorf and R Bishop, Modern Control System, Prentice-Hall, 13th Edition, 2017.
+[DB] R Dorf and R Bishop, Modern Control System, Prentice-Hall, 13th Edition, 2017.
 
-Franklin, Powell, and Emami-Naeini, Feedback Control of Dynamic Systems, 8th ed., Pearson
+[FPE] Franklin, Powell, and Emami-Naeini, Feedback Control of Dynamic Systems, 8th ed., Pearson
 
 
 ## Grade Distribution
