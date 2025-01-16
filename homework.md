@@ -19,6 +19,6 @@ Homework submission will be through [Gradescope](https://www.gradescope.com/cour
 
 Revise the [Homework Policy]({{site.baseurl}}/hwpolicy/) section for more details on the policies.
 
-{% for homework in site.homework %}
-{{ homework }}
-{% endfor %}
+| Homework | Due Date|
+|----------|---------|
+| [HW1](https://github.com/alialbeladi-courses/ee380/blob/main/homeworks/hw01.pdf)  |  Jan. 23|
