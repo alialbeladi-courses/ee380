@@ -1,0 +1,62 @@
+\documentclass[10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage[version=4]{mhchem}
+\usepackage{stmaryrd}
+\usepackage{enumitem}
+\usepackage[a4paper, margin=1in]{geometry}
+\title{EE 380 (Control Engineering I) - Homework 1 }
+
+\author{Due: January 23 (in Gradescope)}
+\date{} 
+
+
+\begin{document}
+\maketitle
+\paragraph{Problem 1.}
+Calculate the following Laplace transforms $F_{i}=\mathcal{L}\left\{f_{i}\right\}$ by hand:
+
+\begin{enumerate}[label=(\alph*)]
+    \item $f_{1}(t)=3 \cos (t)+2 \sin (t)$ \qquad \textit{Hint}: Recall Euler's formula.
+    \item $f_{2}(t)=e^{-3 t}$
+    \item $f_{3}(t)=3 \cos (t)+2 \sin (t)+e^{-2 t}$
+\end{enumerate}
+
+\paragraph{Problem 2.} Consider the following two transfer functions.
+$$
+H_{1}(s)=\frac{4}{s+10} \quad \quad H_{2}(s)=\frac{4}{s-10} \quad \quad H_{3}(s)=\frac{4}{s^2+13s+30} \quad \quad H_{4}(s)=\frac{4}{s^{2}+2 s+2}
+$$
+For each part below, answer the questions for $H_{i}, i=1,2$ in turn before proceeding to next part.
+\begin{enumerate}[label=(\alph*)]
+    \item  What are the poles and zeros?
+    \item What is the impulse response of the system?
+    \item Recall that a step response is the output of the system when all the initial conditions are zero and input is as follows:
+    $$
+    u(t)= \begin{cases}1 & t \geq 0 \\ 0 & t<0\end{cases}
+    $$
+    Compute the step responses \textbf{by hand}. Calculate the steady-state value of each step response.\\
+    \item Next, calculate the response with zero initial conditions and the following input:
+    $$
+    u(t)= \begin{cases}t & t \geq 0 \\ 0 & t<0\end{cases}
+    $$
+    \item Finally, calculate the response with zero initial conditions and the following input:
+    $$
+    u(t)= \begin{cases}t^{2} & t \geq 0 \\ 0 & t<0\end{cases}
+    $$
+\end{enumerate}
+
+\paragraph{Problem 3.} Consider the following transfer functions: $$
+(a) H_{1}(s)=\frac{1}{s^{2}-s+3} \quad \quad (b) H_{2}(s)=\frac{s-4}{s^{2}+5 s+3} \quad \quad (c) H_{3}(s)=\frac{3s+7}{s^{2}+8s+7} \quad \quad (d) H_{4}(s)=\frac{5}{s^{2}+6s+25} $$ 
+Calculate $\lim _{s \rightarrow 0} H_{i}(s)$. Use the MATLAB command step to plot their step responses, and attach the plots (the command ltiview may also be useful, be sure to select plot pages during upload to Gradescope). Can the Final Value Theorem be invoked? What is the DC gain?\\
+
+
+\paragraph{Problem 4.} Consider the transfer function:
+$$
+H(s)=\frac{25}{s^{2}+6 s+25}
+$$
+Draw a block diagram for $H(s)$ using integrator, summation, and gain blocks.
+
+\end{document}
