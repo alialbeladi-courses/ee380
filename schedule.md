@@ -6,12 +6,12 @@ nav_order: 2
 ---
 | Week - Lecture              | Topics                                                          | Readings | HW |
 |-------------------|---------------------------------------------------------------------------|----------|----|
-| #1 - Jan 12     | [Course Overview](https://github.com/alialbeladi-courses/ee380/blob/main/lectures/01_12_Introduction.pdf)                                                             | [[FPE]]({{site.baseurl}}/#textbooks) Ch. 1         |    |
-| #1 - Jan 14     | [Dynamics of Electrical Circuits and Mechanical Systems](https://github.com/alialbeladi-courses/ee380/blob/main/lectures/01_14_Dynamic%20Modelling.pdf)                      | [[FPE]]({{site.baseurl}}/#textbooks) Ch. 2.1.1, Ch. 2.2  |  |
-| #1 - Jan 16     | [Dynamics of Rotational Motion and Electromechanical Systems](https://github.com/alialbeladi-courses/ee380/blob/main/lectures/01_16_Dynamic%20Modelling%20II.pdf)                                       | [[FPE]]({{site.baseurl}}/#textbooks) Ch. 2.1.2, Ch. 2.3 |  |
-| #2: Jan 19      | [Review of Laplace Transform](https://github.com/alialbeladi-courses/ee380/blob/main/lectures/01_19_Laplace%20Review.pdf)                                                   |    [[FPE]]({{site.baseurl}}/#textbooks) Ch. 3.1      |     |
-| #2: Jan 21      | Review of Laplace Transform                                                   |          |     |
-| #2: Jan 23      | Review of Laplace Transform                                                   |          |  [**HW1 Due**{: .label .label-orange }]({{site.baseurl}}/hw/)   |
+| #1 - Jan 12     | [Course Overview](https://kfupmedusa.sharepoint.com/:b:/r/sites/Section_242123885/Class%20Materials/Lecture%20Slides/01_12_Introduction.pdf?csf=1&web=1&e=6PJlGu)                                                             | [[FPE]]({{site.baseurl}}/#textbooks) Ch. 1         |    |
+| #1 - Jan 14     | [Dynamics of Electrical Circuits and Mechanical Systems](https://kfupmedusa.sharepoint.com/:b:/r/sites/Section_242123885/Class%20Materials/Lecture%20Slides/01_14_Dynamic%20Modelling.pdf?csf=1&web=1&e=Oh8vrp)                      | [[FPE]]({{site.baseurl}}/#textbooks) Ch. 2.1.1, Ch. 2.2  |  |
+| #1 - Jan 16     | [Dynamics of Rotational Motion and Electromechanical Systems](https://kfupmedusa.sharepoint.com/:b:/r/sites/Section_242123885/Class%20Materials/Lecture%20Slides/01_16_Dynamic%20Modelling%20II.pdf?csf=1&web=1&e=pZRPzY)                                       | [[FPE]]({{site.baseurl}}/#textbooks) Ch. 2.1.2, Ch. 2.3 |  |
+| #2: Jan 19      | [Review of Laplace Transform](https://kfupmedusa.sharepoint.com/:b:/r/sites/Section_242123885/Class%20Materials/Lecture%20Slides/01_19_Laplace%20Review.pdf?csf=1&web=1&e=ytczCc)                                                   |    [[FPE]]({{site.baseurl}}/#textbooks) Ch. 3.1      |     |
+| #2: Jan 21      | [Block Diagrams](https://kfupmedusa.sharepoint.com/:b:/r/sites/Section_242123885/Class%20Materials/Lecture%20Slides/01_21_Block_Diagrams.pdf?csf=1&web=1&e=BxspQJ)                                                   |          |     |
+| #2: Jan 23      |                                                 |          |  [**HW1 Due**{: .label .label-orange }]({{site.baseurl}}/hw/)   |
 | #3: Jan 26-30       |                            			                                    |          |      |
 | #4: Feb 2-6      |                                                                           |          |    |
 | #5: Feb 9-13     |                                                                           |          |    |
