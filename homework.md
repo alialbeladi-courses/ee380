@@ -21,4 +21,4 @@ Revise the [Homework Policy]({{site.baseurl}}/hwpolicy/) section for more detail
 
 | Homework | Due Date|
 |:---------:|:---------:|
-| [HW1](https://github.com/alialbeladi-courses/ee380/blob/main/homeworks/hw01.pdf)  |  Jan. 23|
+| [HW1](https://kfupmedusa.sharepoint.com/:f:/r/sites/Section_242123885/Class%20Materials/Homework/HW1?csf=1&web=1&e=f9pYdK)  |  Jan. 23|
