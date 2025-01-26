@@ -12,11 +12,21 @@ nav_order: 2
 | #2: Jan 19      | [Review of Laplace Transform](https://kfupmedusa.sharepoint.com/:b:/r/sites/Section_242123885/Class%20Materials/Lecture%20Slides/01_19_Laplace%20Review.pdf?csf=1&web=1&e=ytczCc)                                                   |    [[FPE]]({{site.baseurl}}/#textbooks) Ch. 3.1      |     |
 | #2: Jan 21      | [Block Diagrams](https://kfupmedusa.sharepoint.com/:b:/r/sites/Section_242123885/Class%20Materials/Lecture%20Slides/01_21_Block_Diagrams.pdf?csf=1&web=1&e=BxspQJ)                                                   |  [[FPE]]({{site.baseurl}}/#textbooks) Ch. 3.2       |     |
 | #2: Jan 23      |  [Block Diagrams](https://kfupmedusa.sharepoint.com/:b:/r/sites/Section_242123885/Class%20Materials/Lecture%20Slides/01_23_block_diagrams_2.pdf?csf=1&web=1&e=mhe8TE)                                               | [[FPE]]({{site.baseurl}}/#textbooks) Ch. 3.2         |  [**HW1 Due**{: .label .label-orange }]({{site.baseurl}}/hw/)   |
-| #3: Jan 26-30   |  [Time-domain Analysis](https://kfupmedusa.sharepoint.com/:b:/r/sites/Section_242123885/Class%20Materials/Lecture%20Slides/01_26_time_domain_analysis.pdf?csf=1&web=1&e=PEi87i)                                    |          |      |
-| #4: Feb 2-6      | Time-domain Specifications                                                                         |   [[FPE]]({{site.baseurl}}/#textbooks) Ch. 3.3        |    |
-| #5: Feb 9-13     |                                                                           |          |    |
-| #6: Feb 16-20     |                                                                           |          |        |
-| #7: Feb 25-27       |                                                                           |          |        |
+| #3: Jan 26   |  [Time-domain Analysis](https://kfupmedusa.sharepoint.com/:b:/r/sites/Section_242123885/Class%20Materials/Lecture%20Slides/01_26_time_domain_analysis.pdf?csf=1&web=1&e=PEi87i)                                    |   [[FPE]]({{site.baseurl}}/#textbooks) Ch. 3.3       |      |
+| #3: Jan 28      |  |  |  |
+| #3: Jan 30      |  |  |  |
+| #4: Feb 2      |                                                                       |          |    |
+| #4: Feb 4      |  |  |  |
+| #4: Feb 6      |  |  |  |
+| #5: Feb 9     |                                                                          |          |    |
+| #5: Feb 11      |  |  |  |
+| #5: Feb 13      |  |  |  |
+| #6: Feb 16     |                                                                     |          |        |
+| #6: Feb 18      |  |  |  |
+| #6: Feb 20     |  |  |  |
+| #7: Feb 23       |                                                                          |          |        |
+| #7: Feb 25      |  |  |  |
+| #7: Feb 27      |  |  |  |
 | #8: Mar 1-5      |                                                                           |          |    |
 | #9: Mar 8-12     |                                                                           |          |        |
 | #10: Mar 15-19    |                                                                           |          |        |
