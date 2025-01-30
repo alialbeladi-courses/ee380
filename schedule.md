@@ -13,11 +13,11 @@ nav_order: 2
 | #2: Jan 21      | [Block Diagrams](https://kfupmedusa.sharepoint.com/:b:/r/sites/Section_242123885/Class%20Materials/Lecture%20Slides/01_21_Block_Diagrams.pdf?csf=1&web=1&e=BxspQJ)                                                   |  [[FPE]]({{site.baseurl}}/#textbooks) Ch. 3.2       |     |
 | #2: Jan 23      |  [Block Diagrams](https://kfupmedusa.sharepoint.com/:b:/r/sites/Section_242123885/Class%20Materials/Lecture%20Slides/01_23_block_diagrams_2.pdf?csf=1&web=1&e=mhe8TE)                                               | [[FPE]]({{site.baseurl}}/#textbooks) Ch. 3.2         |  [**HW1 Due**{: .label .label-orange }]({{site.baseurl}}/hw/)   |
 | #3: Jan 26   |  [Time-domain Analysis](https://kfupmedusa.sharepoint.com/:b:/r/sites/Section_242123885/Class%20Materials/Lecture%20Slides/01_26_time_domain_analysis.pdf?csf=1&web=1&e=PEi87i)                                    |   [[FPE]]({{site.baseurl}}/#textbooks) Ch. 3.3       |      |
-| #3: Jan 28      |[Time-domain Analysis](https://kfupmedusa.sharepoint.com/:b:/r/sites/Section_242123885/Class%20Materials/Lecture%20Slides/01_28_time_domain_analysis_2.pdf?csf=1&web=1&e=Cg7v7o)  | [[FPE]]({{site.baseurl}}/#textbooks) Ch. 3.3  |  |
+| #3: Jan 28      |[Time-domain Analysis](https://kfupmedusa.sharepoint.com/:b:/r/sites/Section_242123885/Class%20Materials/Lecture%20Slides/01_28_time_domain_analysis_2.pdf?csf=1&web=1&e=Cg7v7o)  | [[FPE]]({{site.baseurl}}/#textbooks) Ch. 3.4  |  |
 | #3: Jan 30      | Q&A + Quiz 1 |  |  |
 | #4: Feb 2      |                                                                       |          |    |
 | #4: Feb 4      |  |  |  |
-| #4: Feb 6      |  |  |  |
+| #4: Feb 6      |  |  |  [**HW2 Due**{: .label .label-orange }]({{site.baseurl}}/hw/) |
 | #5: Feb 9     |                                                                          |          |    |
 | #5: Feb 11      |  |  |  |
 | #5: Feb 13      |  |  |  |
