@@ -16,7 +16,7 @@ nav_order: 2
 | #3: Jan 28      |[Time-domain Analysis 2](https://kfupmedusa.sharepoint.com/:b:/r/sites/Section_242123885/Class%20Materials/Lecture%20Slides/01_28_time_domain_analysis_2.pdf?csf=1&web=1&e=Cg7v7o)  | [[FPE]]({{site.baseurl}}/#textbooks) Ch. 3.4  |  |
 | #3: Jan 30      | Q&A + Quiz 1 |  |  |
 | #4: Feb 2      |   [Time-domain Analysis 3](https://kfupmedusa.sharepoint.com/:b:/r/sites/Section_242123885/Class%20Materials/Lecture%20Slides/02_02_time_domain_analysis_3.pdf?csf=1&web=1&e=BeBYPW)                                                                    |          |    |
-| #4: Feb 4      |  [Time-domain Analysis 4](https://kfupmedusa.sharepoint.com/:b:/r/sites/Section_242123885/Class%20Materials/Lecture%20Slides/02_04_time_domain_analysis_4.pdf?csf=1&web=1&e=4WpdaA), [Routh-Hurwitz Stability Criterion](https://kfupmedusa.sharepoint.com/:b:/r/sites/Section_242123885/Class%20Materials/Lecture%20Slides/02_04_stability.pdf?csf=1&web=1&e=X5hM0D) |  |  |
+| #4: Feb 4      |  [Time-domain Analysis 4](https://kfupmedusa.sharepoint.com/:b:/r/sites/Section_242123885/Class%20Materials/Lecture%20Slides/02_04_time_domain_analysis_4.pdf?csf=1&web=1&e=4WpdaA), and [Routh-Hurwitz Stability Criterion](https://kfupmedusa.sharepoint.com/:b:/r/sites/Section_242123885/Class%20Materials/Lecture%20Slides/02_04_stability.pdf?csf=1&web=1&e=X5hM0D) |  |  |
 | #4: Feb 6      |  |  |  [**HW2 Due**{: .label .label-orange }]({{site.baseurl}}/hw/) |
 | #5: Feb 9     |                                                                          |          |    |
 | #5: Feb 11      |  |  |  |
