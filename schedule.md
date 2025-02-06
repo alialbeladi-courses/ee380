@@ -4,7 +4,7 @@ title: Calendar
 permalink: /calendar/
 nav_order: 2
 ---
-| Week - Lecture              | Topics                                                          | Readings | HW |
+| Week - Lecture              | Topics                                                          | Readings | Important Dates |
 |-------------------|---------------------------------------------------------------------------|----------|----|
 | #1 - Jan 12     | [Course Overview](https://kfupmedusa.sharepoint.com/:b:/r/sites/Section_242123885/Class%20Materials/Lecture%20Slides/01_12_Introduction.pdf?csf=1&web=1&e=6PJlGu)                                                             | [[FPE]]({{site.baseurl}}/#textbooks) Ch. 1         |    |
 | #1 - Jan 14     | [Dynamics of Electrical Circuits and Mechanical Systems](https://kfupmedusa.sharepoint.com/:b:/r/sites/Section_242123885/Class%20Materials/Lecture%20Slides/01_14_Dynamic%20Modelling.pdf?csf=1&web=1&e=Oh8vrp)                      | [[FPE]]({{site.baseurl}}/#textbooks) Ch. 2.1.1, Ch. 2.2  |  |
@@ -14,18 +14,18 @@ nav_order: 2
 | #2: Jan 23      |  [Block Diagrams](https://kfupmedusa.sharepoint.com/:b:/r/sites/Section_242123885/Class%20Materials/Lecture%20Slides/01_23_block_diagrams_2.pdf?csf=1&web=1&e=mhe8TE)                                               | [[FPE]]({{site.baseurl}}/#textbooks) Ch. 3.2         |  [**HW1 Due**{: .label .label-orange }]({{site.baseurl}}/hw/)   |
 | #3: Jan 26   |  [Time-domain Analysis 1](https://kfupmedusa.sharepoint.com/:b:/r/sites/Section_242123885/Class%20Materials/Lecture%20Slides/01_26_time_domain_analysis.pdf?csf=1&web=1&e=PEi87i)                                    |   [[FPE]]({{site.baseurl}}/#textbooks) Ch. 3.3       |      |
 | #3: Jan 28      |[Time-domain Analysis 2](https://kfupmedusa.sharepoint.com/:b:/r/sites/Section_242123885/Class%20Materials/Lecture%20Slides/01_28_time_domain_analysis_2.pdf?csf=1&web=1&e=Cg7v7o)  | [[FPE]]({{site.baseurl}}/#textbooks) Ch. 3.4  |  |
-| #3: Jan 30      | Q&A + Quiz 1 |  |  |
+| #3: Jan 30      | Q&A + Quiz 1 |  | **Quiz 1**{: .label .label-orange } |
 | #4: Feb 2      |   [Time-domain Analysis 3](https://kfupmedusa.sharepoint.com/:b:/r/sites/Section_242123885/Class%20Materials/Lecture%20Slides/02_02_time_domain_analysis_3.pdf?csf=1&web=1&e=BeBYPW)                                                                    |          |    |
 | #4: Feb 4      |  [Time-domain Analysis 4](https://kfupmedusa.sharepoint.com/:b:/r/sites/Section_242123885/Class%20Materials/Lecture%20Slides/02_04_time_domain_analysis_4.pdf?csf=1&web=1&e=4WpdaA), and [Routh-Hurwitz Stability Criterion](https://kfupmedusa.sharepoint.com/:b:/r/sites/Section_242123885/Class%20Materials/Lecture%20Slides/02_04_stability.pdf?csf=1&web=1&e=X5hM0D) |  |  |
-| #4: Feb 6      |  |  |  [**HW2 Due**{: .label .label-orange }]({{site.baseurl}}/hw/) |
+| #4: Feb 6      | [Routh-Hurwitz Stability Criterion 2](https://kfupmedusa.sharepoint.com/:b:/r/sites/Section_242123885/Class%20Materials/Lecture%20Slides/02_06_stability.pdf?csf=1&web=1&e=caPU2I) |  |  [**HW2 Due**{: .label .label-orange }]({{site.baseurl}}/hw/) |
 | #5: Feb 9     |                                                                          |          |    |
-| #5: Feb 11      |  |  |  |
+| #5: Feb 11      |  |  | **Quiz 2**{: .label .label-orange } |
 | #5: Feb 13      |  |  |  |
 | #6: Feb 16     |                                                                     |          |        |
 | #6: Feb 18      |  |  |  |
-| #6: Feb 20     |  |  |  |
+| #6: Feb 20     |  |  | [**HW3 Due**{: .label .label-orange }]({{site.baseurl}}/hw/) |
 | #7: Feb 23       |                                                                          |          |        |
-| #7: Feb 25      |  |  |  |
+| #7: Feb 25      |  |  | **Quiz 3**{: .label .label-orange }   |
 | #7: Feb 27      |  |  |  |
 | #8: Mar 1-5      |                                                                           |          |    |
 | #9: Mar 8-12     |                                                                           |          |        |
