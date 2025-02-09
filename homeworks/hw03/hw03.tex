@@ -1,0 +1,196 @@
+\documentclass[12pt]{article}
+\usepackage[margin=0.75in]{geometry}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage{natbib}
+\usepackage{multicol}
+\usepackage{hyperref}
+\hypersetup{
+	colorlinks=true,
+	linktoc=all,
+	linkcolor=blue,
+}
+\usepackage{fullpage}
+\usepackage{hyperref}
+\usepackage{footnote}
+
+% Add a horizontal line for footnotes
+\renewcommand\footnoterule{
+    \vspace{1em} % Space before the line
+    \hrule height 0.4pt % Thickness of the line
+    \vspace{1em} % Space after the line
+}
+\RequirePackage{amsmath, amssymb, amsthm}
+\theoremstyle{definition}
+\newtheorem{problem}{Problem}
+
+\begin{document}
+\title{Homework 3}
+\author{{\bf Due:} Feb, 20, midnight}
+\date{}
+\maketitle
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{problem}
+Consider the following first-order system:
+\begin{equation}
+    \dot{y} = -0.5y + 2u, \quad y(0) = 0 \tag{1}
+\end{equation}
+
+\begin{enumerate}[label=(\alph*)]
+    \item (5 points) First, consider a proportional control law \( u(t) = K_p \big(r(t) - y(t)\big) \) where \( r(t) \) is the reference command. As mentioned in class, it is typically important, for practical reasons, that \( u(t) \) does not get too large. Consider a unit step command:
+    \[
+    r(t) = 
+    \begin{cases} 
+    0 & t < 0 \, \text{sec} \\ 
+    1 & t \geq 0 \, \text{sec}
+    \end{cases} \tag{2}
+    \]
+    For what gains \( K_p \) is \( |u(t)| \leq 1 \) for all time? (Hint: The largest value of \( |u(t)| \) will occur at \( t = 0 \).)
+
+    \item (5 points) Choose the gain \( K_p \) that satisfies the constraint in part (a) and minimizes the steady-state error due to the unit step command. What is the time constant of the closed-loop system for this gain?
+
+    \item (5 points) Next, consider a proportional-integral (PI) control law:
+    \[
+    u(t) = K_p e(t) + K_i \int_0^t e(\tau) \, d\tau \tag{3}
+    \]
+    where \( e(t) = r(t) - y(t) \) is the tracking error. Combine the system model (Equation 1) and the PI controller (Equation 3) to obtain a model of the closed-loop system in the form:
+    \[
+    \ddot{y} + a_1 \dot{y} + a_0 y = b_1 \dot{r} + b_0 r \tag{4}
+    \]
+    How do the damping ratio and natural frequency depend on \( K_p \) and \( K_i \)? What is the steady-state error if \( r \) is a unit step?
+
+    \item (10 points) Keep the value of \( K_p \) designed in part (b) and choose \( K_i \) to obtain a damping ratio of \( \zeta = 0.7 \). For these PI gains, what are the estimated maximum overshoot and 5\% settling time (neglecting the effect of the zero)?
+
+    \item (5 points) Plot the output response \( y(t) \) due to a unit step \( r \) for both the P and PI controllers. The closed-loop with the PI controller has a zero due to the term \( b_1 \dot{r} \). Briefly explain how this zero affects the response.
+\end{enumerate}
+
+\end{problem}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{problem}
+(20 points) Consider the following first-order system:
+\[
+\ddot{y} - 2\dot{y} + y = u, \quad y(0) = 0
+\]
+with a PD controller in the form
+\[
+u_t = K_p \big(r(t) - y(t)\big) - K_d \dot{y}(t).
+\]
+\begin{enumerate}[label=(\alph*)]
+    \item What is the ODE model for the closed-loop system from \( r \) to \( y \)?
+    \item Choose \( (K_p, K_d) \) so that the closed-loop system is stable and has \( (\omega_n, \zeta) = (2, 0.5) \).
+    \item What is the steady-state error if \( r \) is a unit step reference?
+    \item Would you increase or decrease \( K_p \) to reduce the steady-state error?
+\end{enumerate}
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.5\textwidth]{fig1_unity.png}
+    \caption{A diagram of a unity feedback system.}
+\end{figure}
+% \newpage
+\end{problem}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{problem}
+(20 points) Consider the unity feedback system in Figure 1. Let the plant's transfer function be given by:
+\[
+P(s) = \frac{6.32}{s^2 - 0.12}
+\]
+Suppose our controller is given by \( K(s) = 4 \). Can we choose \( K(s) \) as a PI controller to stabilize the closed-loop system from \( r \) to \( y \)? Apply the Routh-Hurwitz criterion to determine this.
+
+\end{problem}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{problem}
+Figure 2 below shows the key forces on a car. By Newton’s second law, the longitudinal motion of the car is modeled by the following first-order ODE:
+\begin{equation}
+    m \dot{v}(t) = F_{\text{net}}(t) - F_{\text{aero}}(t) - F_{\text{roll}} - F_{\text{grav}}(t) \tag{5}
+\end{equation}
+where \( v \) is the velocity \(( \frac{m}{\text{sec}} )\), \( m = 2085 \, \text{kg} \) is the mass, and the forces are given by:
+\begin{itemize}
+    \item \( F_{\text{net}} \) is the net engine force. For simplicity, assume this force is proportional to the throttle angle: \( F_{\text{net}} = ku \) where \( u := \) engine throttle input (deg) and \( k = 40 \, \frac{N}{\text{deg}} \) is the force constant. The engine throttle is physically limited to remain within \( 0^\circ \leq u \leq 90^\circ \).
+    \item \( F_{\text{aero}} \) is the aerodynamic drag force. For this problem we will model this as \( F_{\text{aero}} = b_0 + b_1 v \) where \( b_0 = -336.4 \, \text{N} \) and \( b_1 = 23.2 \, \frac{\text{N} \cdot \text{sec}}{\text{m}} \). This approximation is accurate for velocities near \( v = 29 \, \frac{\text{m}}{\text{sec}} \).
+    \item \( F_{\text{roll}} = 228 \, \text{N} \) is the rolling resistance force due to friction at the interface of the tire and road.
+    \item \( F_{\text{grav}} \) is the force due to gravity. This is given by \( F_{\text{grav}} = mg \sin(\theta) \) where \( \theta \) is the slope of the road (rads) and \( g = 9.81 \, \frac{\text{m}}{\text{sec}^2} \) is the gravitational constant.
+\end{itemize}
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.5\textwidth]{fig2_body.png}
+    \caption{Free body diagram for a car.}
+\end{figure}
+
+\footnote{
+\noindent A better approximation for the aerodynamic drag is \( F_{\text{aero}} = c_D v^2 \), where \( c_D = 0.4 \, \frac{\text{N} \cdot \text{sec}^2}{\text{m}^2} \). This is a nonlinear function of the velocity. For simplicity, we can approximate this by the linear function:
+\[
+c_D v^2 \approx b_0 + b_1 v
+\]
+This linear approximation is obtained by performing a Taylor series around the velocity \( \bar{v} = 29 \, \frac{\text{m}}{\text{sec}} \).
+}
+Additional details on the model are given in Example 2.1 of the notes. Putting these pieces together yields the following first-order ODE:
+\begin{equation}
+    2085 \dot{v}(t) + 23.2 v(t) = 40 u(t) + 108.4 - F_{\text{grav}}(t) \tag{6}
+\end{equation}
+
+The input is the throttle \( u \) and the output is the velocity \( v \). The gravitational force \( F_{\text{grav}} \) is a disturbance. The homework contains a Simulink diagram \texttt{CruiseControlSim.mdl} that implements the vehicle dynamics. You can either implement the dynamics by yourself or use the provided Simulink model. For your convenience, there is also an m-file \texttt{CruiseControlPlots.m} that can be used as a template for your answers (you can also just use your own template).
+
+\newpage
+\begin{enumerate}[label=(\alph*)]
+
+    \item (5 points) Assume the car is on flat road so that \( \theta(t) = 0 \, \text{rads} \) and \( F_{\text{grav}}(t) = 0 \, \text{N} \). What is the open-loop (constant) input \( \bar{u} \) required to maintain a desired velocity of \( v_{\text{des}} = 29 \, \frac{\text{m}}{\text{sec}} \)?
+    
+    \item (5 points) Simulate the system with the input \( \bar{u} \), initial condition \( v(0) = 29 \, \frac{\text{m}}{\text{sec}} \), and the following gravitational force:
+    \[
+    F_{\text{grav}}(t) = 
+    \begin{cases} 
+    0 \, \text{N} & t < 10 \, \text{sec} \\
+    350 \, \text{N} & t \geq 10 \, \text{sec}
+    \end{cases}
+    \]
+    Submit a plot of velocity \( v \) versus time \( t \). Note that the gravitational force of 350 N corresponds to a very small road slope of \( \approx 1^\circ \). Observe that this small slope causes a large deviation in the vehicle velocity.
+
+    \item (10 points) Let \( e(t) = v_{\text{des}} - v(t) \) denote the tracking error between the desired velocity \( v_{\text{des}} = 29 \, \frac{\text{m}}{\text{sec}} \) and actual velocity \( v(t) \). Consider a PI controller of the following form:
+\begin{equation}
+    u(t) = \bar{u} + K_p e(t) + K_i \int_0^t e(\tau) \, d\tau \tag{7}
+\end{equation}
+where \( \bar{u} \) is the open-loop input computed in part (a). Choose the PI gains so that the cruise control system is stable and rejects disturbances due to changing road slopes within \( \approx 10 \, \text{sec} \). The closed-loop should also be over or critically damped as oscillations are uncomfortable for the driver. 
+
+\paragraph{Hint:}
+Note that \( \bar{u} \) is chosen to maintain a desired velocity \( v_{\text{des}} = 29 \, \frac{\text{m}}{\text{sec}} \) when on flat road \( \theta = 0^\circ \). In other words, \( \bar{u} \) is chosen to satisfy:
+\[
+23.2v_{\text{des}} = 40\bar{u} + 108.4
+\]
+Thus substituting the expression for \( u(t) \) (Equation 8) into the longitudinal dynamics (Equation 7) yields:
+\[
+2085 \dot{v}(t) + 23.2 v(t) = 23.2 v_{\text{des}} + 40 \left( K_p e(t) + K_i \int_0^t e(\tau) \, d\tau \right) - F_{\text{grav}}(t)
+\]
+
+This closed-loop ODE can be used to select your gains.
+
+    \item (10 points) Modify the Simulink diagram to include your PI controller. Simulate the closed-loop system with your PI controller, initial condition \( v(0) = 29 \, \frac{\text{m}}{\text{sec}} \), and the following gravitational force:
+    \[
+    F_{\text{grav}}(t) = 
+    \begin{cases} 
+    0 \, \text{N} & t < 10 \, \text{sec} \\
+    1400 \, \text{N} & t \geq 10 \, \text{sec}
+    \end{cases}
+    \]
+    Note that the gravitational force of 1400 N corresponds to a road slope of \( \approx 4^\circ \). You will need to update the Simulink block that generates this gravitational force.
+
+    Submit plots of velocity \( v \) versus time \( t \) and throttle input \( u \) versus \( t \). Verify that the throttle input remains within the physical limits. You should also submit the Simulink diagram modified to include your PI controller.
+\end{enumerate}
+\end{problem}
+
+% \footnote{
+% \noindent\textsuperscript{1}Additional details (not required to complete this problem): A better approximation for the aerodynamic drag is \( F_{\text{aero}} = c_D v^2 \) with \( c_D = 0.4 \, \frac{\text{N} \cdot \text{sec}^2}{\text{m}^2} \). This is a nonlinear function of the velocity. We can approximate this by the linear function \( c_D v^2 \approx b_0 + b_1 v \). This approximation is obtained by performing a Taylor series around the velocity \( \bar{v} = 29 \, \frac{\text{m}}{\text{sec}} \).
+% }
+
+% \appendix
+% \section*{Appendix: Additional details}
+% A better approximation for the aerodynamic drag is \( F_{\text{aero}} = c_D v^2 \), where \( c_D = 0.4 \, \frac{\text{N} \cdot \text{sec}^2}{\text{m}^2} \). This is a nonlinear function of the velocity. For simplicity, we can approximate this by the linear function:
+% \[
+% c_D v^2 \approx b_0 + b_1 v
+% \]
+% This linear approximation is obtained by performing a Taylor series around the velocity \( \bar{v} = 29 \, \frac{\text{m}}{\text{sec}} \).
+
+\end{document}
