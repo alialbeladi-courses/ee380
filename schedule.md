@@ -17,8 +17,8 @@ nav_order: 2
 | #3: Jan 30      | Q&A + Quiz 1 |  | **Quiz 1**{: .label .label-orange } |
 | #4: Feb 2      |   [Time-domain Analysis 3](https://kfupmedusa.sharepoint.com/:b:/r/sites/Section_242123885/Class%20Materials/Lecture%20Slides/02_02_time_domain_analysis_3.pdf?csf=1&web=1&e=BeBYPW)                                                                    |          |    |
 | #4: Feb 4      |  [Time-domain Analysis 4](https://kfupmedusa.sharepoint.com/:b:/r/sites/Section_242123885/Class%20Materials/Lecture%20Slides/02_04_time_domain_analysis_4.pdf?csf=1&web=1&e=4WpdaA), and [Routh-Hurwitz Stability Criterion](https://kfupmedusa.sharepoint.com/:b:/r/sites/Section_242123885/Class%20Materials/Lecture%20Slides/02_04_stability.pdf?csf=1&web=1&e=X5hM0D) |  |  |
-| #4: Feb 6      | [Routh-Hurwitz Stability Criterion 2](https://kfupmedusa.sharepoint.com/:b:/r/sites/Section_242123885/Class%20Materials/Lecture%20Slides/02_06_stability.pdf?csf=1&web=1&e=caPU2I) |  |  [**HW2 Due**{: .label .label-orange }]({{site.baseurl}}/hw/) |
-| #5: Feb 9     |                                                                          |          |    |
+| #4: Feb 6      | [Routh-Hurwitz Stability Criterion 2](https://kfupmedusa.sharepoint.com/:b:/r/sites/Section_242123885/Class%20Materials/Lecture%20Slides/02_06_stability.pdf?csf=1&web=1&e=caPU2I) |  [[FPE]]({{site.baseurl}}/#textbooks) Ch. 3.6   |  [**HW2 Due**{: .label .label-orange }]({{site.baseurl}}/hw/) |
+| #5: Feb 9     |    [Effect of Zeros and Additional Poles](https://kfupmedusa.sharepoint.com/:b:/r/sites/Section_242123885/Class%20Materials/Lecture%20Slides/02_09_extra_poles_zeros.pdf?csf=1&web=1&e=xFjaU6)                                                                      |     [[FPE]]({{site.baseurl}}/#textbooks) Ch. 3.5        |    |
 | #5: Feb 11      |  |  | **Quiz 2**{: .label .label-orange } |
 | #5: Feb 13      |  |  |  |
 | #6: Feb 16     |                                                                     |          |        |
