@@ -19,9 +19,9 @@ nav_order: 2
 | #4: Feb 4      |  [Time-domain Analysis 4](https://kfupmedusa.sharepoint.com/:b:/r/sites/Section_242123885/Class%20Materials/Lecture%20Slides/02_04_time_domain_analysis_4.pdf?csf=1&web=1&e=4WpdaA), and [Routh-Hurwitz Stability Criterion](https://kfupmedusa.sharepoint.com/:b:/r/sites/Section_242123885/Class%20Materials/Lecture%20Slides/02_04_stability.pdf?csf=1&web=1&e=X5hM0D) |  |  |
 | #4: Feb 6      | [Routh-Hurwitz Stability Criterion 2](https://kfupmedusa.sharepoint.com/:b:/r/sites/Section_242123885/Class%20Materials/Lecture%20Slides/02_06_stability.pdf?csf=1&web=1&e=caPU2I) |  [[FPE]]({{site.baseurl}}/#textbooks) Ch. 3.6   |  [**HW2 Due**{: .label .label-orange }]({{site.baseurl}}/hw/) |
 | #5: Feb 9     |    [Effect of Zeros and Additional Poles](https://kfupmedusa.sharepoint.com/:b:/r/sites/Section_242123885/Class%20Materials/Lecture%20Slides/02_09_extra_poles_zeros.pdf?csf=1&web=1&e=xFjaU6)                                                                      |     [[FPE]]({{site.baseurl}}/#textbooks) Ch. 3.5        |    |
-| #5: Feb 11      |  |  | **Quiz 2**{: .label .label-orange } |
-| #5: Feb 13      |  |  |  |
-| #6: Feb 16     |                                                                     |          |        |
+| #5: Feb 11      | Q&A + Quiz 2 |  | **Quiz 2**{: .label .label-orange } |
+| #5: Feb 13      | [Steady State Value & Feedback Control](https://kfupmedusa.sharepoint.com/:b:/r/sites/Section_242123885/Class%20Materials/Lecture%20Slides/02_13_steady_state_value_feedback.pdf?csf=1&web=1&e=uxboZa) |  |  |
+| #6: Feb 16     |   [Feedback Control 2](https://kfupmedusa.sharepoint.com/:b:/r/sites/Section_242123885/Class%20Materials/Lecture%20Slides/02_16_feedback_control.pdf?csf=1&web=1&e=qDbeN9)                                                                  |          |        |
 | #6: Feb 18      |  |  |  |
 | #6: Feb 20     |  |  | [**HW3 Due**{: .label .label-orange }]({{site.baseurl}}/hw/) |
 | #7: Feb 23       |                                                                          |          |        |
