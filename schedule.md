@@ -23,10 +23,10 @@ nav_order: 2
 | #5: Feb 13      | [Steady State Value & Feedback Control](https://kfupmedusa.sharepoint.com/:b:/r/sites/Section_242123885/Class%20Materials/Lecture%20Slides/02_13_steady_state_value_feedback.pdf?csf=1&web=1&e=uxboZa) | [[FPE]]({{site.baseurl}}/#textbooks) Ch. 3.1.6  |  |
 | #6: Feb 16     |   [Feedback Control 2](https://kfupmedusa.sharepoint.com/:b:/r/sites/Section_242123885/Class%20Materials/Lecture%20Slides/02_16_feedback_control.pdf?csf=1&web=1&e=qDbeN9)                                                                  |    [[FPE]]({{site.baseurl}}/#textbooks) Ch. 4.1       |        |
 | #6: Feb 18      | [Feedback Control 3](https://kfupmedusa.sharepoint.com/:b:/s/Section_242123885/EbLLhLo5YEpLkmLfboBbNRgBCymlcS-RvmWT-sfILA9djw) |  |  |
-| #6: Feb 20     | [PID Control](https://kfupmedusa.sharepoint.com/:b:/s/Section_242123885/EWB5OOi5pOJHu0pGFXWYrocBGgWRqq3ThtXa_Tux6GJRng) |  [[FPE]]({{site.baseurl}}/#textbooks) Ch. 4.3 | [**HW3 Due**{: .label .label-orange }]({{site.baseurl}}/hw/) |
+| #6: Feb 20     | [PID Control](https://kfupmedusa.sharepoint.com/:b:/s/Section_242123885/EWB5OOi5pOJHu0pGFXWYrocBGgWRqq3ThtXa_Tux6GJRng) |  [[FPE]]({{site.baseurl}}/#textbooks) Ch. 4.3 |  |
 | #7: Feb 23       |      **National Day**                                                                    |          |        |
 | #7: Feb 25      | PID Revision |  | **Quiz 3**{: .label .label-orange }   |
-| #7: Feb 27      | [Root Locus](https://kfupmedusa.sharepoint.com/:b:/r/sites/Section_242123885/Class%20Materials/Lecture%20Slides/02_27_root_locus.pdf?csf=1&web=1&e=uIrlkQ) | [[FPE]]({{site.baseurl}}/#textbooks) Ch. 5.1 |  |
+| #7: Feb 27      | [Root Locus](https://kfupmedusa.sharepoint.com/:b:/r/sites/Section_242123885/Class%20Materials/Lecture%20Slides/02_27_root_locus.pdf?csf=1&web=1&e=uIrlkQ) | [[FPE]]({{site.baseurl}}/#textbooks) Ch. 5.1 | [**HW3 Due**{: .label .label-orange }]({{site.baseurl}}/hw/) |
 | #8: Mar 1-5      |                                                                           |          |    |
 | #9: Mar 8-12     |                                                                           |          |        |
 | #10: Mar 15-19    |                                                                           |          |        |
