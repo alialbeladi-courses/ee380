@@ -1,0 +1,146 @@
+\documentclass{article}
+\usepackage{fancyhdr}
+\usepackage[margin=0.75in]{geometry}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage{natbib}
+\usepackage{multicol}
+\usepackage{hyperref}
+\usepackage{minted} % Include this in the preamble
+\usepackage{array}
+\usepackage{booktabs}
+
+\usepackage{fullpage}
+\usepackage{footnote}
+
+\usepackage{amsmath, amssymb, amsthm}
+\theoremstyle{definition}
+\newtheorem{problem}{Problem}
+\newcounter{solution}
+
+\newcommand\TheSolution{%
+  \textbf{Solution.}\\%
+}
+
+% Add a horizontal line for footnotes
+\renewcommand\footnoterule{
+    \vspace{1em} % Space before the line
+    \hrule height 0.4pt % Thickness of the line
+    \vspace{1em} % Space after the line
+}
+\parindent 0in
+\parskip 1em
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue,
+}
+
+
+\begin{document}
+\title{Homework 4}
+\author{{\bf Due:} Mar, 13, midnight}
+\date{}
+\maketitle
+
+%============================================================================== 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{problem} (20 points) Consider the following system:
+
+\[
+G(s) = \frac{8000}{s^5 + 52s^4 + 927s^3 + 6000s^2 + 10150s + 8500}
+\]
+
+\begin{enumerate}
+    \item[(a)] What are the poles of \( G(s) \)? You may use Matlab or any other numerical tool to compute the poles.
+    \item[(b)] Is the system stable?
+    \item[(c)] What is the time constant associated with each pole?
+    \item[(d)] Construct a first-order or second-order approximation from the dominant pole. Do you expect the dominant pole approximation to be accurate?
+    \item[(e)] Use Matlab (or another numerical tool) to plot the step responses for \( G(s) \) and your dominant pole approximation on a single figure.
+\end{enumerate}
+
+\end{problem}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{problem} (20 points)
+In this problem, we consider the altitude control for a small quadcopter (Parrot Mambo) shown below. The total thrust produced by the four rotors is given by 
+\[
+T = (4k_T) \cdot u
+\]
+where \( u \) is a unitless command given to each motor. The motor command is restricted to the range \([0, 500]\). A model for the altitude dynamics of this quadcopter when hovering is:
+
+\begin{equation}
+\label{eq1}
+    m\ddot{h}(t) = (4k_T) \cdot u(t) - mg
+\end{equation}
+
+where \( h \) := altitude (m), \( m := 65 \times 10^{-3} \) (kg) is the quadcopter mass, \( k_T := 5.276 \times 10^{-4} \) (N) is the motor thrust coefficient, \( g = 9.81 \frac{m}{s^2} \) is the gravitational constant. Recall that if \( u = 500 \) then the quadcopter achieves its maximum upward acceleration of \( 6.42 \frac{m}{s^2} \). Disturbance forces will be neglected in this problem.
+
+\begin{center}
+    \includegraphics[width=0.4\textwidth]{2_quadcopter.png}
+\end{center}
+
+\begin{enumerate}
+\label{prob2}
+    \item[(a)] Equation(\ref{eq1}) models the altitude dynamics of the quadcopter with motor command \( u \) as input and altitude \( h \) as output. Are these dynamics stable? (Hint: You can neglect the constant term \( -mg \).)
+    
+    \item[(b)] The goal is to fly the quadcopter from the initial conditions \( h(0) = \dot{h}(0) = 0 \) to a final height \( \bar{h} \) in 1 sec. Consider the following desired altitude trajectory:
+    
+    \begin{equation}
+        h_{\text{des}}(t) = \frac{\bar{h}}{2} \times (1 - \cos(\pi t))
+    \end{equation}
+    
+    Verify that the vertical acceleration for this profile is \( \ddot{h}_{\text{des}}(t) = \frac{\bar{h}}{2} \pi^2 \cos(\pi t) \). What is the largest value \( \bar{h} > 0 \) that can be reached in 1 sec while remaining within the maximum acceleration limit?
+    
+    \item[(c)] Define an open-loop controller that selects the motor command as follows:
+    
+    \begin{equation}
+        u(t) = \frac{\hat{m}}{4\hat{k}_T} \left( g + \ddot{h}_{\text{des}}(t) \right)
+        = \frac{\hat{m}}{4\hat{k}_T} \left( g + \frac{\bar{h}}{2} \pi^2 \cos(\pi t) \right)
+    \end{equation}
+
+    Here \( \hat{m} \) and \( \hat{k}_T \) are estimates of the quadcopter mass and thrust constant.\footnote[1]{It is important to distinguish between the true values \( (m, k_T) \) and the estimates \( (\hat{m}, \hat{k}_T) \) used by the controller. In general, the control design is performed using simplified models that are reasonably accurate but with some error relative to the ``real'' dynamics.}
+ This open-loop controller is based on the pre-planned trajectory \( h_{\text{des}}(t) \) and does not use a measurement of the actual altitude. Assume the estimates are perfect: \( (\hat{m}, \hat{k}_T) = (m, k_T) \). Verify this open-loop controller causes the quadcopter altitude \( h(t) \) to follow the desired trajectory \( h_{\text{des}}(t) \).
+    
+    \item[(d)] The homework contains a Simulink diagram \texttt{QuadOLSim.mdl} that implements this open-loop controller with \( \bar{h} = 1m \). There is also an m-file \texttt{QuadOLPlots.m} that can be used as a template for your solutions for this problem. Simulate the open-loop controller with \( (\hat{m}, \hat{k}_T) = (m, k_T) \). Hand in a plot of \( h(t) \) vs. \( t \).
+    
+    \item[(e)] Simulate the open-loop controller with the parameter estimates \( (\hat{m}, \hat{k}_T) = (0.95 \times m, 1.05 \times k_T) \). Hand in a plot of \( h(t) \) vs. \( t \). Note that these small errors cause the altitude to diverge from the desired trajectory. Small disturbance forces (which have been neglected) will also cause the trajectory to diverge.
+\end{enumerate}
+
+\end{problem}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{problem} (15 points) This problem will focus on designing a feedback control law for the quadcopter to track altitude reference commands. The model is given by Equation (\ref{eq1}) with details in Problem(\ref{prob2}). The control law should be designed so that the closed-loop system with input \( h_{\text{des}}(t) \) and output \( h(t) \) is stable. In addition, the closed-loop should satisfy the following transient response requirements when \( h_{\text{des}}(t) \) is any step reference command of magnitude less than 1m:
+
+\begin{itemize}
+    \item[(i)] has a settling time \( \leq 2 \) sec,
+    \item[(ii)] has an overshoot \( \leq 5 \%\),
+    \item[(iii)] has steady state error \( |e_{ss}| \leq 0.01 \) m,
+    \item[(iv)] has \( u(t) \in [0, 500] \) for all \( t \geq 0 \).
+\end{itemize}
+
+The homework contains a Simulink diagram \texttt{QuadPID.mdl} with an implementation for a PID control law. (For this problem, we will use a PD control law so the integral gain will be zero in the Simulink simulations). There is also an m-file \texttt{QuadPlots.m} that can be used as a template for your solutions for this problem. Questions:
+
+\begin{enumerate}
+    \item[(a)] Consider a control law of the form:
+    
+    \begin{equation}
+        u(t) = K_p (h_{\text{des}}(t) - h(t)) - K_d \dot{h}(t) + \frac{\hat{m} g}{4 \hat{k}_T}
+    \end{equation}
+    
+    As discussed in class, this is a version of proportional-derivative control. This form avoids the differentiation of the reference command \( r(t) \) and is sometimes called proportional control with rate feedback. This control law does include a term to approximately cancel the gravitational effect. Derive an ODE that models the closed-loop dynamics with this control law assuming perfect cancellation of the gravitational term.
+    
+    \item[(b)] Choose the gains \( K_p \) and \( K_d \) to make the closed-loop stable and to satisfy requirements (i), (ii), and (iii).
+    
+    \textit{Hint: Convert requirements (i) and (ii) into requirements on the natural frequency and damping ratio for the closed-loop poles.}
+    
+    \item[(c)] Use the posted \textbf{Simulink} model to simulate your control law with \( h_{\text{des}}(t) = 1 \) m for \( t \geq 0 \) and zero initial conditions. Assume the controller has perfect estimates of \( (m, k_T) \). Determine if your design satisfies requirement (iv). If (iv) is not satisfied, then modify your gains until you are able to satisfy all design requirements. Submit plots of \( h(t) \) vs. \( t \) and \( u(t) \) vs. \( t \) for your final choices of \( K_p \) and \( K_d \).
+    
+\end{enumerate}
+
+
+
+
+\end{problem}
+\end{document}
