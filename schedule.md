@@ -32,7 +32,10 @@ nav_order: 2
 | #8: Mar 6      |    No Class                                                                      |          |    |
 | #9: Mar 9      |    [Root Locus 3](https://kfupmedusa.sharepoint.com/:b:/r/sites/Section_242123885/Class%20Materials/Lecture%20Slides/03_09_root_locus_3.pdf?csf=1&web=1&e=ricovm)                                                                        |          |    |
 | #9: Mar 11     |    [Root Locus 4](https://kfupmedusa.sharepoint.com/:b:/r/sites/Section_242123885/Class%20Materials/Lecture%20Slides/03_11_root_locus_4.pdf?csf=1&web=1&e=fEx5kH)                                                                       |   [[FPE]]({{site.baseurl}}/#textbooks) Ch. 5.3       |        |
-| #10: Mar 15-19    |                                                                           |          |        |
+| #9: Mar 13    |                                                                           |          |   [**HW5 Due Mar. 14**{: .label .label-orange }]({{site.baseurl}}/hw/)     |
+| #10: Mar 16    |                                                                           |          |        |
+| #10: Mar 18    |                                                                           |          |        |
+| #10: Mar 20    |                                                                           |          |        |
 |  Mar 25-Apr 5| **Eid AlFitr Break**| | |
 | #11: Apr 6-10 |                                                                           |          |        |
 | #12: Apr 13-17      |                                                                           |          |        |
