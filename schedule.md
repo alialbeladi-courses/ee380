@@ -27,8 +27,11 @@ nav_order: 2
 | #7: Feb 23       |      **National Day**                                                                    |          |        |
 | #7: Feb 25      | PID Revision |  | **Quiz 3**{: .label .label-orange }   |
 | #7: Feb 27      | [Root Locus](https://kfupmedusa.sharepoint.com/:b:/r/sites/Section_242123885/Class%20Materials/Lecture%20Slides/02_27_root_locus.pdf?csf=1&web=1&e=uIrlkQ) | [[FPE]]({{site.baseurl}}/#textbooks) Ch. 5.1 | [**HW3 Due**{: .label .label-orange }]({{site.baseurl}}/hw/) |
-| #8: Mar 1-5      |                                                                           |          |    |
-| #9: Mar 8-12     |                                                                           |          |        |
+| #8: Mar 2      |    [Root Locus 2](https://kfupmedusa.sharepoint.com/:b:/r/sites/Section_242123885/Class%20Materials/Lecture%20Slides/03_02_root_locus_2.pdf?csf=1&web=1&e=IbHBCr)                                                                       |  [[FPE]]({{site.baseurl}}/#textbooks) Ch. 5.2        |    |
+| #8: Mar 4      |    Revision                                                                       |          |  Major 1 (**Mar. 5**)  |
+| #8: Mar 6      |    No Class                                                                      |          |    |
+| #9: Mar 9      |    [Root Locus 3](https://kfupmedusa.sharepoint.com/:b:/r/sites/Section_242123885/Class%20Materials/Lecture%20Slides/03_09_root_locus_3.pdf?csf=1&web=1&e=ricovm)                                                                        |          |    |
+| #9: Mar 11     |    [Root Locus 4](https://kfupmedusa.sharepoint.com/:b:/r/sites/Section_242123885/Class%20Materials/Lecture%20Slides/03_11_root_locus_4.pdf?csf=1&web=1&e=fEx5kH)                                                                       |   [[FPE]]({{site.baseurl}}/#textbooks) Ch. 5.3       |        |
 | #10: Mar 15-19    |                                                                           |          |        |
 |  Mar 25-Apr 5| **Eid AlFitr Break**| | |
 | #11: Apr 6-10 |                                                                           |          |        |
