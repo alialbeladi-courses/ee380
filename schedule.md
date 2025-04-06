@@ -33,13 +33,23 @@ nav_order: 2
 | #9: Mar 9      |    [Root Locus 3](https://kfupmedusa.sharepoint.com/:b:/r/sites/Section_242123885/Class%20Materials/Lecture%20Slides/03_09_root_locus_3.pdf?csf=1&web=1&e=ricovm)                                                                        |          |    |
 | #9: Mar 11     |    [Root Locus 4](https://kfupmedusa.sharepoint.com/:b:/r/sites/Section_242123885/Class%20Materials/Lecture%20Slides/03_11_root_locus_4.pdf?csf=1&web=1&e=fEx5kH)                                                                       |   [[FPE]]({{site.baseurl}}/#textbooks) Ch. 5.3       |        |
 | #9: Mar 13    |                                                                           |          |   [**HW5 Due Mar. 14**{: .label .label-orange }]({{site.baseurl}}/hw/)     |
-| #10: Mar 16    |                                                                           |          |        |
-| #10: Mar 18    |                                                                           |          |        |
-| #10: Mar 20    |                                                                           |          |        |
+| #10: Mar 16    |    PID Issues                                                                       |          |        |
+| #10: Mar 18    |    Lead Compensator                                                                       |          |        |
+| #10: Mar 20    |    Lead/Lag Compensator                                                                       |          |        |
 |  Mar 25-Apr 5| **Eid AlFitr Break**| | |
-| #11: Apr 6-10 |                                                                           |          |        |
-| #12: Apr 13-17      |                                                                           |          |        |
-| #13: Apr 20-24    |                                      							            |          |        |
-| #14: Apr 27-May 1   |                                                                           |          |        |
-| #15: Apr 27-May 1 | | | |
+| #11: Apr 6 |                                                                           |          |        |
+| #11: Apr 8 |                                                                           |          |        |
+| #11: Apr 10 |                                                                           |          |        |
+| #12: Apr 13      |                                                                           |          |        |
+| #12: Apr 15      |                                                                           |          |        |
+| #12: Apr 17      |                                                                           |          |        |
+| #13: Apr 20    |                                      							            |          |        |
+| #13: Apr 22    |                                      							            |          |        |
+| #13: Apr 24    |                                      							            |          |        |
+| #14: Apr 27   |                                                                           |          |        |
+| #14: Apr 29   |                                                                           |          |        |
+| #14: May 1   |                                                                           |          |        |
+| #15: May 4 | | | |
+| #15: May 6 | | | |
+| #15: May 8 | | | |
 {: class="schedule-table"}
