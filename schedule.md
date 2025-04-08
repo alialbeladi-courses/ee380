@@ -33,11 +33,11 @@ nav_order: 2
 | #9: Mar 9      |    [Root Locus 3](https://kfupmedusa.sharepoint.com/:b:/r/sites/Section_242123885/Class%20Materials/Lecture%20Slides/03_09_root_locus_3.pdf?csf=1&web=1&e=ricovm)                                                                        |          |    |
 | #9: Mar 11     |    [Root Locus 4](https://kfupmedusa.sharepoint.com/:b:/r/sites/Section_242123885/Class%20Materials/Lecture%20Slides/03_11_root_locus_4.pdf?csf=1&web=1&e=fEx5kH)                                                                       |   [[FPE]]({{site.baseurl}}/#textbooks) Ch. 5.3       |        |
 | #9: Mar 13    |                                                                           |          |   [**HW5 Due Mar. 14**{: .label .label-orange }]({{site.baseurl}}/hw/)     |
-| #10: Mar 16    |    PID Issues                                                                       |          |        |
-| #10: Mar 18    |    Lead Compensator                                                                       |          |        |
-| #10: Mar 20    |    Lead/Lag Compensator                                                                       |          |        |
+| #10: Mar 16    |    [PID Issues](https://kfupmedusa.sharepoint.com/:b:/r/sites/Section_242123885/Class%20Materials/Lecture%20Slides/03_16_pid_issues.pdf?csf=1&web=1&e=P6ISwv)                                                                       |          |        |
+| #10: Mar 18    |    Lead Compensator                                                                       |     [[FPE]]({{site.baseurl}}/#textbooks) Ch. 5.4     |        |
+| #10: Mar 20    |    [Lead/Lag Compensator](https://kfupmedusa.sharepoint.com/:b:/r/sites/Section_242123885/Class%20Materials/Lecture%20Slides/03_18_lead_compnesator.pdf?csf=1&web=1&e=4qVsop)                                                                       |    [[FPE]]({{site.baseurl}}/#textbooks) Ch. 5.5      |        |
 |  Mar 25-Apr 5| **Eid AlFitr Break**| | |
-| #11: Apr 6 |                                                                           |          |        |
+| #11: Apr 6 |    Frequency Response                                                                       |          |        |
 | #11: Apr 8 |                                                                           |          |        |
 | #11: Apr 10 |                                                                           |          |        |
 | #12: Apr 13      |                                                                           |          |        |
