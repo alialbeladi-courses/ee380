@@ -1,0 +1,188 @@
+\documentclass{article}
+
+\usepackage[margin=0.75in]{geometry}
+
+\usepackage{graphicx}
+\usepackage{enumerate}
+\usepackage{natbib}
+\usepackage{multicol}
+\usepackage{hyperref}
+\hypersetup{
+	colorlinks=true,
+	linktoc=all,
+	linkcolor=blue,
+}
+
+\RequirePackage{amsmath, amssymb, amsthm}
+
+\theoremstyle{definition}
+\newtheorem{problem}{Problem}
+
+\begin{document}
+
+\title{EE 380 (Control Systems) -- Homework 6}
+\author{{\bf Due:} April 23}
+\date{}
+
+\maketitle
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{problem}(20 points)
+Answer the following questions.
+
+\begin{enumerate}[(a)]
+\item Consider the following system $G(s)$ and sinusoidal input:
+\begin{align*}
+  & -3\dot{y}(t) - 2y(t) = 7 u(t) \\
+  & u(t) = 6\cos(t+4)
+\end{align*}
+What is the magnitude and phase of $G(1j)$?  Is the steady-state
+output bounded?  If yes, what is it?
+
+\item Consider the following system $G(s)$ and sinusoidal input:
+\begin{align*}
+  & \ddot{y}(t) + 0.1\dot{y}(t) + 4y(t) = \dot{u}(t) + 2 u(t) \\
+  & u(t) = -\cos(2t)
+\end{align*}
+What is the magnitude and phase of $G(2j)$?  Is the steady-state
+output bounded?  If yes, what is it?
+
+\end{enumerate}
+\end{problem}
+
+
+%=======================================================================
+
+\begin{problem} (40 points)
+Sketch the Bode plots by hand for the following 
+  systems:
+  \begin{enumerate}[(a)]
+    \item A PI controller with input $e(t)$ and output $u(t)$:
+      \begin{align*}
+         \dot{u}(t) = K_p \dot{e}(t) + K_i e(t)
+      \end{align*}
+      with $K_p = 10$ and $K_i = 1$.
+
+    \item A ``low frequency boost'' controller with input 
+      $e(t)$ and output $u(t)$:
+      \begin{align*}
+         \dot{u}(t) + u(t) = \dot{e}(t) + 10 e(t)
+      \end{align*}
+      This type of controller will be encountered later in
+      the course.
+
+    \item A first-order system with right-half plane zero with input
+      $u(t)$ and output $y(t)$:
+      \begin{align*}
+        2 \dot{y}(t) + 0.6 y(t) = -\dot{u}(t) + 30 u(t)
+      \end{align*}
+
+    \item A second-order underdamped system with input $u(t)$
+      and output $y(t)$:
+      \begin{align*}
+        \ddot{y}(t) + 0.2\dot{y}(t) +4.01 y(t) = -u(t)
+      \end{align*}
+
+  \end{enumerate}
+After you're done, check your results using \texttt{MATLAB}. Turn in both the hand sketches and the
+\texttt{MATLAB} plots.
+\end{problem}
+
+%=======================================================================
+
+\begin{problem}(40 points)
+For each of the transfer functions given below, draw the Bode plots (both magnitude
+and phase) by hand, using the techniques discussed in Lecture 15. Explain all steps in your
+drawing procedures.
+\begin{multicols}{2}
+\begin{enumerate}[(a)]
+\item
+$L(s) = \dfrac{s+8}{s(s+4)}$
+
+\item
+$L(s) = \dfrac{8s}{s^2+0.2s+4}$
+
+\item
+$L(s) = \dfrac{s^2+0.2s+1}{s(s+0.2)(s+6)}$
+
+\item
+$L(s) = \dfrac{s+10}{s(s^2+1.4s+1)}$
+\end{enumerate}
+\end{multicols}
+After you're done, check your results using \texttt{MATLAB}. (Note that the bode command
+in \texttt{MATLAB} plots magnitude in decibels.) Turn in both the hand sketches and the
+\texttt{MATLAB} plots.
+\end{problem}
+
+%=======================================================================
+
+\begin{problem}
+  Consider the feedback diagram in Figure~\ref{fig:feedback} below. Suppose $L(s):=G(s)K(s)$. Consider two
+  pairs of plants and controllers:
+  \begin{enumerate}
+  \item[i)] $K(s) = \dfrac{10(s+3)}{s}$ and 
+    $G(s) = \dfrac{-0.5(s^2-2500)}{(s-3)(s^2+50s+1000)}$
+  %\item[i)] $K(s) = \frac{2.4s+1}{s}$ and $G(s)=\frac{1}{s-1}$
+  \item[ii)] $K(s) = \dfrac{0.4s+1}{s}$ and $G(s)=\dfrac{1}{s+1}$
+   \item[iii)] $K(s)=2$ and $G(s)=\dfrac{1}{(s+1)^3}$
+  \end{enumerate}
+  Perform the following calculations for each plant/controller pair:
+  \begin{enumerate}[(a)]
+    \item (15 points) Verify that the feedback system is stable.
+    \item (15 points) Use the Bode plot of $L(s)$  to compute the
+      gain margin(s) of the feedback system.
+    \item (15 points) Use the Bode plot of $L(s)$ to figure out the phase
+      margins of the feedback system.
+  \end{enumerate}
+  You can use the \texttt{allmargin} command to check your answers.
+
+
+\begin{figure}[h]
+\begin{center}`
+\begin{picture}(230,55)(0,25)
+\thicklines
+% Reference
+\put(5,70){$r$}
+\put(5,65){\vector(1,0){30}}
+% Sum Junction
+\put(38,65){\circle{6}}
+\put(30,50){\line(1,0){5}}
+% Controller
+\put(50,70){$e$}
+\put(41,65){\vector(1,0){30}}
+\put(71,50){\framebox(30,30){$K(s)$}}
+% Controller Output
+\put(120,70){$u$}
+\put(101,65){\vector(1,0){66}}
+%\put(101,65){\vector(1,0){30}}
+%\put(134,65){\circle{6}}
+% Disturbance Input
+%\put(134,95){\vector(0,-1){27}}
+%\put(136,88){$d$}
+% Plant
+\put(137,65){\vector(1,0){30}}
+\put(167,50){\framebox(30,30){$G(s)$}}
+% Output
+\put(211,70){$y$}
+\put(197,65){\vector(1,0){50}}
+% Feedback
+\put(221,65){\line(0,-1){40}}
+\put(221,25){\line(-1,0){183}}
+\put(38,25){\vector(0,1){37}}
+% Noise
+%\put(221,25){\circle{6}}
+%\put(250,25){\vector(-1,0){26}}
+%\put(241,30){$n$}
+\end{picture}
+\caption{Feedback Loop}
+\label{fig:feedback}
+\end{center}
+\end{figure}
+
+\end{problem}
+
+%=======================================================================
+
+
+\end{document}

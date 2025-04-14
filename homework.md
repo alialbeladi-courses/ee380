@@ -26,4 +26,5 @@ Revise the [Homework Policy]({{site.baseurl}}/hwpolicy/) section for more detail
 | [HW3](https://kfupmedusa.sharepoint.com/:f:/r/sites/Section_242123885/Class%20Materials/Homework/HW3?csf=1&web=1&e=oLrYxS)  |  Feb. 27|
 | [HW4](https://kfupmedusa.sharepoint.com/:f:/r/sites/Section_242123885/Class%20Materials/Homework/HW4?csf=1&web=1&e=XgbJmc)  |  Mar. 20 (updated)|
 | [HW5](https://kfupmedusa.sharepoint.com/:f:/r/sites/Section_242123885/Class%20Materials/Homework/HW5?csf=1&web=1&e=Ju70fu)  |  Mar. 14|
+| [HW6](https://kfupmedusa.sharepoint.com/:f:/r/sites/Section_242123885/Class%20Materials/Homework/HW6?csf=1&web=1&e=5hWPhC)  |  April. 23|
 
