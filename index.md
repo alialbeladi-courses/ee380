@@ -38,9 +38,3 @@ Control systems are at the heart of modern technology, powering everything from 
 * **Project:**      &nbsp;&nbsp; 10%
 * **Exams 1 & 2:**  &nbsp; 40%
 * **Final Exam:**   &nbsp; 35%
-| Week             | Topics  |
-|------------------|---------|
-|**Homework:**     | 15% |
-|**Project:**      | 10% |
-|**Exams 1 & 2:**  | 40% |
-|**Final Exam:**   | 35% |
