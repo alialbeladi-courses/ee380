@@ -37,12 +37,12 @@ nav_order: 2
 | #10: Mar 18    |    Lead Compensator                                                                       |     [[FPE]]({{site.baseurl}}/#textbooks) Ch. 5.4     |        |
 | #10: Mar 20    |    [Lead/Lag Compensator](https://kfupmedusa.sharepoint.com/:b:/r/sites/Section_242123885/Class%20Materials/Lecture%20Slides/03_18_lead_compnesator.pdf?csf=1&web=1&e=4qVsop)                                                                       |    [[FPE]]({{site.baseurl}}/#textbooks) Ch. 5.5      |        |
 |  Mar 25-Apr 5| **Eid AlFitr Break**| | |
-| #11: Apr 6 |    Frequency Response                                                                       |          |        |
-| #11: Apr 8 |                                                                           |          |        |
-| #11: Apr 10 |                                                                           |          |        |
-| #12: Apr 13      |                                                                           |          |        |
-| #12: Apr 15      |                                                                           |          |        |
-| #12: Apr 17      |                                                                           |          |        |
+| #11: Apr 6 |    [Frequency Response Methods 1](https://kfupmedusa.sharepoint.com/:b:/r/sites/Section_242123885/Class%20Materials/Lecture%20Slides/04_06_frequency_response.pdf?csf=1&web=1&e=b0Txtr)                                                                       |          |        |
+| #11: Apr 8 |      Frequency Response Methods 1 - continued                                                                   |          |        |
+| #11: Apr 10 |    [Frequency Response Methods 2](https://kfupmedusa.sharepoint.com/:b:/r/sites/Section_242123885/Class%20Materials/Lecture%20Slides/04_08_frequency_response_2.pdf?csf=1&web=1&e=egkANi)                                                                         |          |        |
+| #12: Apr 13      |     Frequency Response Methods 2 - continued                                                                      |          |        |
+| #12: Apr 15      |       [Frequency Response Methods 3](https://kfupmedusa.sharepoint.com/:b:/r/sites/Section_242123885/Class%20Materials/Lecture%20Slides/04_15_frequency_response_3.pdf?csf=1&web=1&e=dN9TkJ)                                                                    |          |        |
+| #12: Apr 17      |       [Gain & Phase Margin](https://kfupmedusa.sharepoint.com/:b:/r/sites/Section_242123885/Class%20Materials/Lecture%20Slides/04_17_gain_phase_margin.pdf?csf=1&web=1&e=uTZPof)                                                                    |          |        |
 | #13: Apr 20    |                                      							            |          |        |
 | #13: Apr 22    |                                      							            |          |        |
 | #13: Apr 24    |                                      							            |          |        |
