@@ -45,11 +45,11 @@ nav_order: 2
 | #12: Apr 17      |       [Gain & Phase Margin](https://kfupmedusa.sharepoint.com/:b:/r/sites/Section_242123885/Class%20Materials/Lecture%20Slides/04_17_gain_phase_margin.pdf?csf=1&web=1&e=uTZPof)                                                                    |     [[FPE]]({{site.baseurl}}/#textbooks) Ch. 6.4     |        |
 | #13: Apr 20    |       [Frequency Design Methods](https://kfupmedusa.sharepoint.com/:b:/r/sites/Section_242123885/Class%20Materials/Lecture%20Slides/04_20_compensators_frequency_methods.pdf?csf=1&web=1&e=XhsvUW)                               							            |          |        |
 | #13: Apr 22    |                                      							            |          |        |
-| #13: Apr 24    |      [Frequency Compensator Design Methods](https://kfupmedusa.sharepoint.com/:b:/r/sites/Section_242123885/Class%20Materials/Lecture%20Slides/04_24_compensators_design.pdf?csf=1&web=1&e=JjLfwu)                                							            |          |        |
-| #14: Apr 27   |       [Nyquist Plots](https://kfupmedusa.sharepoint.com/:b:/r/sites/Section_242123885/Class%20Materials/Lecture%20Slides/04_27_nyquist_plots.pdf?csf=1&web=1&e=2lUSdp)                                                                    |          |        |
+| #13: Apr 24    |      [Frequency Compensator Design Methods](https://kfupmedusa.sharepoint.com/:b:/r/sites/Section_242123885/Class%20Materials/Lecture%20Slides/04_24_compensators_design.pdf?csf=1&web=1&e=JjLfwu)                                							            |     [[FPE]]({{site.baseurl}}/#textbooks) Ch. 6.7     |        |
+| #14: Apr 27   |       [Nyquist Plots](https://kfupmedusa.sharepoint.com/:b:/r/sites/Section_242123885/Class%20Materials/Lecture%20Slides/04_27_nyquist_plots.pdf?csf=1&web=1&e=2lUSdp)                                                                    |      [[FPE]]({{site.baseurl}}/#textbooks) Ch. 6.3    |        |
 | #14: Apr 29   |        [Nyquist Stability Criteria 1](https://kfupmedusa.sharepoint.com/:b:/r/sites/Section_242123885/Class%20Materials/Lecture%20Slides/04_29_nyquist_2.pdf?csf=1&web=1&e=YWX4pr)                                                                   |          |        |
-| #14: May 1   |                                                                           |          |        |
-| #15: May 4 | | | |
+| #14: May 1   |     [Nyquist Stability Criteria 2](https://kfupmedusa.sharepoint.com/:b:/r/sites/Section_242123885/Class%20Materials/Lecture%20Slides/05_01_nyquist_criteria.pdf?csf=1&web=1&e=LLXkNL)                                                                      |  [[FPE]]({{site.baseurl}}/#textbooks) Ch. 7.1-7.2         |        |
+| #15: May 4 | [State Space Modelling](https://kfupmedusa.sharepoint.com/:b:/r/sites/Section_242123885/Class%20Materials/Lecture%20Slides/05_04_state_space_modelling.pdf?csf=1&web=1&e=Pnl3ff)| | |
 | #15: May 6 | | | |
 | #15: May 8 | | | |
 {: class="schedule-table"}
