@@ -48,8 +48,8 @@ nav_order: 2
 | #13: Apr 24    |      [Frequency Compensator Design Methods](https://kfupmedusa.sharepoint.com/:b:/r/sites/Section_242123885/Class%20Materials/Lecture%20Slides/04_24_compensators_design.pdf?csf=1&web=1&e=JjLfwu)                                							            |     [[FPE]]({{site.baseurl}}/#textbooks) Ch. 6.7     |        |
 | #14: Apr 27   |       [Nyquist Plots](https://kfupmedusa.sharepoint.com/:b:/r/sites/Section_242123885/Class%20Materials/Lecture%20Slides/04_27_nyquist_plots.pdf?csf=1&web=1&e=2lUSdp)                                                                    |      [[FPE]]({{site.baseurl}}/#textbooks) Ch. 6.3    |        |
 | #14: Apr 29   |        [Nyquist Stability Criteria 1](https://kfupmedusa.sharepoint.com/:b:/r/sites/Section_242123885/Class%20Materials/Lecture%20Slides/04_29_nyquist_2.pdf?csf=1&web=1&e=YWX4pr)                                                                   |          |        |
-| #14: May 1   |     [Nyquist Stability Criteria 2](https://kfupmedusa.sharepoint.com/:b:/r/sites/Section_242123885/Class%20Materials/Lecture%20Slides/05_01_nyquist_criteria.pdf?csf=1&web=1&e=LLXkNL)                                                                      |  [[FPE]]({{site.baseurl}}/#textbooks) Ch. 7.1-7.2         |        |
-| #15: May 4 | [State Space Modelling](https://kfupmedusa.sharepoint.com/:b:/r/sites/Section_242123885/Class%20Materials/Lecture%20Slides/05_04_state_space_modelling.pdf?csf=1&web=1&e=Pnl3ff)| | |
-| #15: May 6 | | | |
-| #15: May 8 | | | |
+| #14: May 1   |     [Nyquist Stability Criteria 2](https://kfupmedusa.sharepoint.com/:b:/r/sites/Section_242123885/Class%20Materials/Lecture%20Slides/05_01_nyquist_criteria.pdf?csf=1&web=1&e=LLXkNL)                                                                      |           |        |
+| #15: May 4 | [State Space Modelling](https://kfupmedusa.sharepoint.com/:b:/r/sites/Section_242123885/Class%20Materials/Lecture%20Slides/05_04_state_space_modelling.pdf?csf=1&web=1&e=Pnl3ff)| [[FPE]]({{site.baseurl}}/#textbooks) Ch. 7.1-7.2 | |
+| #15: May 6 | [State Space Modelling 2](https://kfupmedusa.sharepoint.com/:b:/r/sites/Section_242123885/Class%20Materials/Lecture%20Slides/05_06_state_space_modelling_2.pdf?csf=1&web=1&e=by7PeE)|[[FPE]]({{site.baseurl}}/#textbooks) Ch. 7.3 | |
+| #15: May 8 | State Space Modelling 2 - continued| [[FPE]]({{site.baseurl}}/#textbooks) Ch. 7.4| |
 {: class="schedule-table"}
