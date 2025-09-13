@@ -1,0 +1,153 @@
+\documentclass{article}
+\usepackage[margin=0.75in]{geometry}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage{natbib}
+\usepackage{multicol}
+\usepackage{hyperref}
+\hypersetup{
+	colorlinks=true,
+	linktoc=all,
+	linkcolor=blue,
+}
+
+\RequirePackage{amsmath, amssymb, amsthm}
+\theoremstyle{definition}
+\newtheorem{problem}{Problem}
+
+\begin{document}
+\title{Homework 2}
+\author{{\bf Due:} Feb, 6, midnight}
+\date{}
+\maketitle
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{problem}
+Consider the dynamics for the mass-spring system, as depicted in 
+Figure~\ref{fig:mass_spring}. 
+
+\vspace{12pt}
+
+\noindent  Here, $k$ is the spring constant and $\rho$ is the friction 
+coefficient (yes, the mass $m$ in the figure does not touch the floor, but \textit{assume it does!}).
+
+\vspace{12pt}
+
+\begin{figure}[!ht]
+ 	\begin{center}
+ 	\includegraphics[width=0.35\columnwidth]{mass_spring.png}
+ 	\end{center}
+ 	\caption{The mass-spring system.}
+ 	\label{fig:mass_spring}
+\end{figure}
+
+\begin{enumerate}[label=(\alph*), noitemsep] 
+\item (5 points) Derive the equations of motion for the system, 
+assuming the displacement of the mass is \( x(t) \) and the input 
+force is \( u(t) \).  
+
+\item (10 points) From the equations of motion, derive the transfer 
+function \( H(s) = \frac{X(s)}{U(s)} \), where \( X(s) \) and \( U(s) \) 
+are the Laplace transforms of \( x(t) \) and \( u(t) \), respectively.  
+
+\item (10 points) Express the natural frequency \( \omega_n \) and 
+the damping ratio \( \zeta \) in terms of \( k \), \( \rho \), and \( m \).  
+
+\end{enumerate}
+\end{problem}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{problem}
+Consider the transfer function:
+\[
+H(S) = \dfrac{25}{s^2 + 6 s + 25}
+\]
+\begin{enumerate}[label=(\alph*), noitemsep]
+\item (5 points)
+Draw a block diagram for $H(s)$ using integrator, summation, and 
+gain blocks.
+\item (5 points) Suppose you are given the following time-domain
+specs: rise time $t_r \leq 0.6$ and settling time $t_s \leq 1.6$.
+(Here we're considering settling time to within 5\% of the 
+steady-state value.) Plot the admissible pole locations in the 
+$s$-plane corresponding to these two specs. Does this system satisfy 
+these specs?
+\item (5 points) Repeat the previous problem for the specs: rise 
+time $t_r \leq 0.6$, settling time $t_s \leq 1.6$, and magnitude $M_p 
+\leq 1/e^2$. Plot the admissible pole locations; does this system 
+satisfy these specs?
+\item (5 points) Draw a block diagram for $(s+1)H(s)$ using 
+integrator, summation, and gain blocks.
+\end{enumerate}
+\end{problem}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure}[!ht]
+ 	\begin{center}
+ 	\includegraphics[width=0.5\columnwidth]{unity.png}
+ 	\end{center}
+ 	\caption{A diagram of a unity feedback system.}
+ 	\label{fig:unity}
+ \end{figure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{problem} (15 points) Consider the unity feedback system in
+Figure~\ref{fig:unity}. Let the plant's transfer function be given by:
+\[
+P(s) = \frac{1}{s^3 + 2s^2 + 3s + 1}
+\]
+Suppose our controller is given by $K(s) = 4$. 
+What is the transfer function from $R$ to $Y$? Use the Routh-Hurwitz 
+criterion to determine whether this model is stable or not.
+\end{problem}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{problem}
+(30 points) Consider the six transfer functions given below.  For 
+each $G_i(s), i=1,2, \dots 6$, specify the following \textbf{in turn}: 
+(a) Poles, (b) Zeros (if any), (c) Stable or unstable, and (d) 
+Steady-state gain \textbf{before proceeding to the next}. Use these
+answers to match each of the six transfer functions with one of
+the unit step responses in the figure below. All responses were
+generated with zero initial conditions.
+\begin{table}[h!]
+\begin{center}
+\begin{tabular}{llll}
+$G_1(s) = \dfrac{-4s+4}{s^2 +3 s + 4}$
+&
+$G_2(s) = \dfrac{4}{s^2 + 0.3 s + 4}$
+&
+$G_3(s) = \dfrac{4}{s^2 + 3 s + 4}$
+\\ 
+&&& 
+\\
+$G_4(s) = \dfrac{-s+3}{s-1}$
+&
+$G_5(s) = \dfrac{300}{s^2+101s+100}$
+&
+$G_6(s) = \dfrac{-3}{s+1}$
+\end{tabular}
+\end{center}
+\end{table}
+
+\vspace{-0.3in}
+\begin{figure}[h]
+  \begin{center}
+  \includegraphics[width=7.5in]{ExtraPolesAndZeros.png}
+  \end{center}
+\end{figure}
+\end{problem}
+\vspace{-0.3in}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%}
+\begin{problem}
+ (15 points) Without a computer, determine whether or not the following 
+ polynomials have any RHP roots:
+\begin{enumerate}[label=(\alph*), noitemsep]
+\item 
+$s^6 + 2s^5 +3s^4 + s^3 + s^2 - 3s + 5$
+\item
+$s^4 + 10s^3 + 10s^2 + 20s + 1$
+\item
+$s^4 + 10s^3 + 10s^2  + 1$
+\end{enumerate}
+\end{problem}
+\end{document}
