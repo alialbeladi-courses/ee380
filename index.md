@@ -6,8 +6,9 @@ nav_order: 1
 
 # EE380: Control Engineering I
 {: .mb-2 }
-with Dr. Ali AlBeladi (OH: Sunday/Tuesday 2:15-3:15 pm and Thursday 10 - 11 am @ 59-1070)
-and Muhammed ElYamani (OH: Monday/Wednesday 10:30 am - 12 pm)
+with Dr. Ali AlBeladi (OH: Sunday/Tuesday/Thursday 2:00-3:00 pm @ 59-1070)
+
+and Ali Mostafa (OH: TBA)
 {: .fs-6 .fw-300 }
 
 ## Course Overview
@@ -34,7 +35,6 @@ Control systems are at the heart of modern technology, powering everything from 
 
 
 ## Grade Distribution
-* **Homework:**     &nbsp;&nbsp; 15%
-* **Project:**      &nbsp;&nbsp; 10%
+* **Classwork:**     &nbsp;&nbsp;&nbsp;&nbsp; 25%
 * **Exams 1 & 2:**  &nbsp; 40%
-* **Final Exam:**   &nbsp; 35%
+* **Final Exam:**   &nbsp;&nbsp;&nbsp; 35%
