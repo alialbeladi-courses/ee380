@@ -7,7 +7,7 @@ nav_order: 1
 # EE380: Control Engineering I
 {: .mb-2 }
 with Dr. Ali AlBeladi (OH: Sunday/Tuesday/Thursday 2:00-3:00 pm @ 59-1070)
-
+{: .mb-2 }
 and Ali Mostafa (OH: TBA)
 {: .fs-6 .fw-300 }
 
